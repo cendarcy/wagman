@@ -1,19 +1,25 @@
 body {
   margin-top: 0px;
-  background-color: rgba(150, 157, 185, 0.41); }
+  background-color: #dfdfdf; }
 
 nav ul {
   display: inline-block;
   list-style: none;
   font-size: 18px;
   padding-left: 5px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #031B51;
+  background: #031B51;
+  margin-top: 0;
+  width: 100%; }
   nav ul li {
     float: left;
     margin-right: 20px; }
     nav ul li a {
       text-decoration: none;
-      color: black; }
+      color: #ffffff; }
       nav ul li a:hover {
         background-color: #eee;
         color: #8f002c; }
@@ -42,7 +48,10 @@ div.wtvr {
   width: 900px; }
 
 h2 {
-  padding-left: 20px; }
+  padding-left: 300px; }
+
+h1 {
+  padding-left: 10px; }
 
 p {
   padding-left: 50px; }

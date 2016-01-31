@@ -1,6 +1,6 @@
 body {
 	margin-top: 0px;
-	background-color: rgba(150, 157, 185, 0.41);
+	background-color: #dfdfdf;
 }
 
 
@@ -12,18 +12,26 @@ nav {
 		font-size: 18px;
 		padding-left: 5px;
 		padding-bottom: 40px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #031B51;
+		background: #031B51;
+		margin-top: 0;
+		width: 100%;
 
 		li {
 			float: left; 
 			margin-right: 20px;
 
+
 			a {
 				text-decoration: none;
-				color: black;
+				color: #ffffff;
 
 				&:hover {
 				background-color: #eee;	
 				color: rgb(143, 0, 44);
+
 				}
 			}	
 		}
@@ -64,7 +72,11 @@ div.wtvr {
 }
 
 h2 {
-	padding-left: 20px;
+	padding-left: 300px;
+}
+
+h1 {
+	padding-left: 10px;
 }
 
 p {
