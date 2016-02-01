@@ -22,7 +22,8 @@
 body {
   margin-top: 0px;
   margin-left: 0px;
-  margin-bottom: 0px; }
+  margin-bottom: 0px;
+  font-family: Didot; }
 
 div.banner {
   background-color: #031B51;
@@ -41,7 +42,7 @@ nav ul {
   padding-top: 5px;
   padding-left: 5px;
   padding-bottom: 40px;
-  margin-top: 0;
+  margin-top: 0px;
   margin-left: 0px;
   width: 100%; }
   nav ul li {
@@ -106,7 +107,8 @@ h1 {
 
 p {
   padding-left: 150px;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  font-family: Georgia; }
 
 footer nav ul.nav-btm {
   border-top: 1px solid black;

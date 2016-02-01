@@ -1,18 +1,45 @@
+.slider {
+  margin-left: 150px;
+  overflow: hidden;
+  height: 600px;
+  width: 900px;
+  margin-bottom: 10px; }
+
+.slides {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute; }
+
+.slide:first-child {
+  display: block; }
+
 body {
   margin-top: 0px;
-  background-color: #dfdfdf;
-  margin-left: 20px; }
+  margin-left: 0px;
+  font-family: Didot; }
+
+div.banner {
+  background-color: #031B51;
+  width: 100%; }
+
+img.theater {
+  float: left;
+  margin-left: 150px;
+  width: 900px;
+  height: auto; }
 
 nav ul {
   display: inline-block;
   list-style: none;
-  font-size: 18px;
-  padding-left: 5px;
+  font-size: 20px;
+  padding-left: 50px;
   padding-bottom: 40px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #031B51;
-  background: #031B51;
   margin-top: 0;
   width: 100%; }
   nav ul li {
@@ -45,7 +72,7 @@ img.theater {
   height: auto; }
 
 h1 {
-  margin-left: 5px; }
+  margin-left: 50px; }
 
 img.pin {
   float: left;
@@ -65,7 +92,8 @@ h2.perf {
 p {
   float: left;
   padding-left: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: 'Georgia'; }
 
 p.bar {
   float: left;
@@ -80,15 +108,43 @@ div.media {
 h3.foo {
   clear: both; }
 
+.slide-buttons-wrap {
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  width: 900px;
+  margin-left: 120px; }
+  .slide-buttons-wrap .slide-buttons {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; }
+
+button.slide-btn {
+  background-color: white;
+  color: white;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  float: left;
+  margin: 0 auto;
+  position: relative;
+  margin-left: 10px;
+  width: 5px;
+  height: 15px; }
+  button.slide-btn.active {
+    background-color: #031B51;
+    color: #031B51; }
+
 img.spcl {
   padding-bottom: 20px; }
 
-nav ul.nav-btm {
+footer nav ul.nav-btm {
   border-top: 1px solid black;
   width: 1199px;
   padding-top: 30px;
-  padding-left: 305px; }
-nav li.bar {
+  background-color: #031B51; }
+footer nav li.bar {
   padding-right: 20px;
   border-right: 2px solid black; }
 
