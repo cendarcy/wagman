@@ -1,15 +1,17 @@
+@import 'partials/slideshow';
+
 body {
 	margin-top: 0px;
-	background-color: #dfdfdf;
+	background-color: whitesmoke;
 }
-
 
 nav {
 
 	ul {	
 		display: inline-block;
 		list-style: none;
-		font-size: 18px;
+		font-size: 20px;
+		padding-top: 5px;
 		padding-left: 5px;
 		padding-bottom: 40px;
 		border-style: solid;
@@ -62,6 +64,7 @@ img.side {
 
 img.theater {
 	float: left;
+	margin-left: 150px;
 	width: 900px;
 	height: auto;
 }
@@ -74,6 +77,42 @@ div.wtvr {
 h2 {
 	padding-left: 300px;
 }
+
+.slide-buttons-wrap {
+	width: 100%;
+	overflow: auto;
+	text-align: center;
+	width: 900px;
+	margin-left: 150px;
+		
+		.slide-buttons {
+			display: inline-block;
+			margin: 0 auto;
+			text-align: center;
+		}
+}
+
+button.slide-btn {
+	background-color: white;
+	color: white;
+	border: 1px solid black;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	position: relative;
+	margin-left: 10px;
+	width: 5px;
+	height: 15px;
+
+
+		&.active {
+			background-color: #031B51;
+			color: #031B51;
+		}
+}
+
 
 h1 {
 	padding-left: 10px;
