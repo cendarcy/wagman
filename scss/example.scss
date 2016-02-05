@@ -8,14 +8,13 @@ body {
 
 div.banner {
 	background-color: #031B51;
-	width: 100%;
+
 }
 
 img.theater {
 	float: left;
-	margin-left: 150px;
-	width: 900px;
-	height: auto;
+	width: 100%;
+	padding-bottom: 15px;
 }
 
 nav {
@@ -25,7 +24,7 @@ nav {
 		list-style: none;
 		font-size: 20px;
 		padding-left: 50px;
-		padding-bottom: 40px;
+		padding-bottom: 20px;
 		margin-top: 0;
 		width: 100%;
 
@@ -68,12 +67,6 @@ img.side {
 	float: left;
 }
 
-img.theater {
-	float: left;
-	width: 900px;
-	height: auto;
-}
-
 h1 {
 	margin-left: 50px;
 
@@ -81,7 +74,8 @@ h1 {
 
 img.pin {
 	float: left;
-	margin-left: 5px;
+	margin-left: 20px;
+	width: 100%;
 }
 
 div.wtvr {
@@ -95,7 +89,7 @@ h2 {
 
 h2.perf {
 	margin-left: 169px;
-	padding-left: 200px;
+	padding-left: 220px;
 }
 
 p {

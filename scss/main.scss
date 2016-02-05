@@ -9,14 +9,10 @@ body {
 
 div.banner {
 	background-color: #031B51;
-	width: 100%;
 }
 
 img.theater {
-	float: left;
-	margin-left: 150px;
-	width: 900px;
-	height: auto;
+	width:100%;
 }
 
 nav {
@@ -29,17 +25,16 @@ nav {
 		padding-left: 5px;
 		padding-bottom: 40px;
 		margin-top: 0px;
-		margin-left: 0px;
+		margin-left: 20px;
 		width: 100%;
 
 		li {
 			float: left; 
-			margin-left: 50px;
-
 
 			a {
 				text-decoration: none;
 				color: #ffffff;
+				margin-right: 50px;
 
 				&:hover {
 				background-color: #eee;	
@@ -58,9 +53,7 @@ nav ul li ul.nav-sub{
 	padding-left: 0px;
 
 		li {
-			float: none;
-
-				
+			float: none;		
 		}
 }
 
