@@ -69,6 +69,10 @@ div.wtvr {
 h2 {
   padding-left: 450px; }
 
+@media (max-width: 800px) {
+  div.slides {
+    width: 50%; } }
+
 .slide-buttons-wrap {
   width: 100%;
   overflow: auto;
@@ -105,12 +109,19 @@ p {
   padding-left: 150px;
   background-color: whitesmoke;
   font-family: Georgia; }
+  @media (max-width: 800px) {
+    p {
+      width: 50%;
+      font-size: 24px; } }
 
 footer nav ul.nav-btm {
+  overflow: auto;
   border-top: 1px solid black;
   background-color: #031B51;
-  width: 1199px;
-  padding-top: 30px; }
+  width: 100%;
+  padding-top: 30px;
+  margin-left: 0px;
+  padding-left: 20px; }
 footer nav li.bar {
   padding-left: 20px;
   border-right: 2px solid black;

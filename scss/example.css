@@ -26,7 +26,8 @@ body {
   font-family: Didot; }
 
 div.banner {
-  background-color: #031B51; }
+  background-color: #031B51;
+  width: 1199px; }
 
 img.theater {
   float: left;
@@ -70,8 +71,11 @@ h1 {
 
 img.pin {
   float: left;
-  margin-left: 40px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin: 0 0 10px 10px; }
+  @media (max-width: 800px) {
+    img.pin {
+      width: 35%; } }
 
 div.wtvr {
   width: 900px; }
@@ -93,6 +97,12 @@ p {
 
 p.bar {
   padding-left: 400px; }
+  @media (max-width: 800px) {
+    p.bar {
+      display: inline;
+      font-size: 20px;
+      padding-left: 10px;
+      overflow: auto; } }
 
 div.media {
   margin-left: 20px;
